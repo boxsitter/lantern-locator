@@ -1,0 +1,50 @@
+# Project .gitignore
+# Inferred from PyCharm workspace (Python run configuration present).
+
+# --- IDE/editor ---
+.idea/
+.vscode/
+
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Python tooling cache ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Build / distribution artifacts ---
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# --- Coverage ---
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Logs ---
+*.log
+
+# --- Local environment / secrets ---
+.env
+.env.*
+*.local
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
